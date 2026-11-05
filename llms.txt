@@ -1,0 +1,27 @@
+# Directional Quantum Relay Limits
+
+> Exact state-transfer limits for passive, static, local one-way quantum paths, with bounded-rate constructions and an optimized unavoidable-loss law.
+
+## Scientific routes
+
+- [Overview](README.md): physical question, central results, scope and reading routes.
+- [Connected scientific account](science/README.md): ordered route through the model, proof, construction, loss frontier and consequences.
+- [Model](science/model.md): passive Lindblad dynamics, arbitrary reference-entangled input, lower-bidiagonal complete drift, vacuum auxiliary modes, retained output, and rate conventions.
+- [Path ceiling](science/path_ceiling.md): inherited weighted-shift product bound, positive convolution, sharp 4/e^2 ceiling and finite-time strictness.
+- [Attainable designs](science/attainable_designs.md): local jump and Hamiltonian realization, slow endpoints, gamma-distributed transit delay, finite accuracy and time cost.
+- [Loss frontier](science/loss_frontier.md): finite upper bound, exact reduction to maximal internal rates and endpoint/time optimization, matching exponential rate and weak-loss limit.
+- [Channel consequences](science/channel_consequences.md): pure-loss capacity, finite-energy positivity, mode-count threshold, average qubit fidelity and assistance distinctions.
+- [Bypass](science/bypass.md): exact static passive three-mode counterexample to an arbitrary-forward-graph ceiling.
+- [Physical interpretation](science/physical_interpretation.md): local reservoirs, common-waveguide cascades, stored-state transfer versus traveling-field scattering, and resource accounting.
+- [Finite examples](science/finite_examples.md): explicitly chosen finite designs, rigorous bounds, rate and waiting-time tables, and plotted asymptotic approach.
+- [Related work](references/related_work.md): classical and quantum antecedents, verified source locations, inherited ingredients and reading limits.
+- [Reproducibility](REPRODUCIBILITY.md): numerical commands, pinned packages, check scope and figure generation.
+
+## Essential distinctions
+
+- The physical drift has no upstream or bypass entries. A common chiral waveguide can generate additional downstream couplings and need not satisfy this condition.
+- The 4/e^2 value is transmissivity or single-excitation arrival probability; it is not average unknown-qubit fidelity.
+- Gamma caps engineered diagonal amplitude damping. Kappa is additional amplitude damping. Occupation decay rates are twice the corresponding amplitude rates.
+- The classical numerical-radius product bound and Crabb profile, the two-emitter constant, and pure-loss capacity formulas are inherited.
+- The finite positive-loss optimum is reduced to two endpoint rates and time. Equal endpoints are a construction, not a proved general finite optimizer.
+- The weak-loss frontier and capacity range concern independently initialized channel uses. No fixed-spacing distance or per-second throughput is inferred.
