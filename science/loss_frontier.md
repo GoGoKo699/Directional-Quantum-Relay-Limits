@@ -5,7 +5,7 @@ Let the engineered drift $`A_0`$ satisfy the [passive scalar path model](model.m
 ```math
 A_0+A_0^\dagger\preceq0,
 \qquad
-0\le\nu_j=-\operatorname{Re}(A_0)_{jj}\le\Gamma.
+0\le\nu_j=-\mathrm{Re}(A_0)_{jj}\le\Gamma.
 ```
 
 Add independent vacuum loss on every mode:

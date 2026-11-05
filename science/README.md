@@ -15,4 +15,6 @@ The argument proceeds through the following connected topics.
 
 Each proof has one authoritative home in this sequence. The [related-work account](../references/related_work.md) separates inherited ingredients from the path and loss optimization. The [reproduction route](../REPRODUCIBILITY.md) records the numerical inputs, commands and actual scope of verification.
 
+For an introduction through open-system physics, use the [Wiseman–Milburn bridge](../learning/WISEMAN_MILBURN_BRIDGE.md) and the [30-milestone map](../learning/MILESTONES.md). They connect the selected textbook foundations to these scientific pages without replacing the proofs.
+
 The exact finite optimum for arbitrary positive loss is represented by an endpoint-and-time optimization, rather than a closed formula. Its optimal polynomial prefactor at fixed loss and the optimal transmission of general multipath graphs are not needed for the matched limits established here.

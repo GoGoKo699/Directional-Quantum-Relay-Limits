@@ -150,6 +150,8 @@ The comparison uses targeted primary-source reading, with the following limits:
 
 ## References
 
+The [structured bibliography](references.bib) supplies the same citation keys, together with the selected Wiseman–Milburn educational anchor. The [source bridge](../learning/WISEMAN_MILBURN_BRIDGE.md) separates textbook foundations from the research ingredients below.
+
 - **[Pearcy1966]** C. Pearcy, “An elementary proof of the power inequality for the numerical radius,” *Michigan Mathematical Journal* **13**(3), 289–291 (1966). [Publisher DOI](https://doi.org/10.1307/mmj/1031732779).
 - **[Crabb1971]** M. J. Crabb, “The powers of an operator of numerical radius one,” *Michigan Mathematical Journal* **18**(3), 253–256 (1971). [Publisher DOI](https://doi.org/10.1307/mmj/1029000687).
 - **[LewisOverton2020]** A. S. Lewis and M. L. Overton, “Partial Smoothness of the Numerical Radius at Matrices Whose Fields of Values Are Disks,” *SIAM Journal on Matrix Analysis and Applications* **41**(3), 1004–1032 (2020). [DOI](https://doi.org/10.1137/18M1236289); [author-hosted published paper](https://cs.nyu.edu/overton/papers/pdffiles/NumerRad.pdf).

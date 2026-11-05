@@ -28,7 +28,7 @@ Its entanglement fidelity for a maximally mixed qubit input is
 F_{\mathrm e}
 =
 \frac14\sum_{\ell=0}^{1}
-|\operatorname{Tr}K_\ell|^2
+|\mathrm{Tr}K_\ell|^2
 =
 \frac{(1+\sqrt\eta)^2}{4}.
 ```

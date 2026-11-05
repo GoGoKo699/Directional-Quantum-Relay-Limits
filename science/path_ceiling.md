@@ -54,7 +54,7 @@ It therefore suffices to prove the result when all $`\nu_j`$ and $`|w_j|`$ are p
 
 ## 2. The sharp path-product inequality
 
-A diagonal change of mode phases makes all adjacent drift couplings positive without changing the diagonal rates or transfer magnitude. Let $`D=\operatorname{diag}(\nu_1,\ldots,\nu_n)`$. After this phase change,
+A diagonal change of mode phases makes all adjacent drift couplings positive without changing the diagonal rates or transfer magnitude. Let $`D=\mathrm{diag}(\nu_1,\ldots,\nu_n)`$. After this phase change,
 
 ```math
 D^{-1/2}RD^{-1/2}=I-B\succeq0,
@@ -140,7 +140,7 @@ But $`T^{n-1}`$ has just one possibly nonzero entry, equal to $`2^{n-1}\prod_j b
 
 ## 3. The propagator is a single convolution
 
-For $`\operatorname{Re}z>0`$, define the causal function
+For $`\mathrm{Re}z>0`$, define the causal function
 
 ```math
 f_z(t)=e^{-zt}\mathbf1_{\{t\ge0\}}.

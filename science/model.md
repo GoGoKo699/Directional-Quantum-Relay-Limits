@@ -139,7 +139,7 @@ A=A_0-\kappa I,
 \qquad
 A_0+A_0^\dagger\preceq0,
 \qquad
-0\le\nu_j=-\operatorname{Re}(A_0)_{jj}\le\Gamma.
+0\le\nu_j=-\mathrm{Re}(A_0)_{jj}\le\Gamma.
 ```
 
 Here $`\Gamma>0`$ bounds the engineered diagonal amplitude damping, and $`\kappa\ge0`$ is an additional amplitude damping rate on every mode. The added jumps are $`\sqrt{2\kappa}\,a_j`$. Passivity is imposed on $`A_0`$ separately, so the unavoidable loss cannot be canceled by gain.

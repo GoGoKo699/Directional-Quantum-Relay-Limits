@@ -115,7 +115,7 @@ Equivalently,
 ```math
 G(t)=\mathbb E[F_{a,a}(t-S)],
 \qquad
-S\sim\operatorname{Gamma}(m,\text{ rate }\Gamma).
+S\sim\mathrm{Gamma}(m,\text{ rate }\Gamma).
 ```
 
 In particular,
@@ -123,7 +123,7 @@ In particular,
 ```math
 \mathbb E S=\frac m\Gamma,
 \qquad
-\operatorname{Var}S=\frac m{\Gamma^2}.
+\mathrm{Var}S=\frac m{\Gamma^2}.
 ```
 
 The relays therefore create a positive random delay. To preserve the peak of the endpoint response, its width $`1/a`$ must exceed the standard deviation $`\sqrt m/\Gamma`$. The mean delay $`m/\Gamma`$ determines the leading propagation time.

@@ -15,7 +15,16 @@
 - [Physical interpretation](science/physical_interpretation.md): local reservoirs, common-waveguide cascades, stored-state transfer versus traveling-field scattering, and resource accounting.
 - [Finite examples](science/finite_examples.md): explicitly chosen finite designs, rigorous bounds, rate and waiting-time tables, and plotted asymptotic approach.
 - [Related work](references/related_work.md): classical and quantum antecedents, verified source locations, inherited ingredients and reading limits.
+- [Structured bibliography](references/references.bib): bibliographic records keyed consistently with the related-work account and the selected educational anchor.
 - [Reproducibility](REPRODUCIBILITY.md): numerical commands, pinned packages, check scope and figure generation.
+
+## Study route
+
+The single educational anchor is Howard M. Wiseman and Gerard J. Milburn, Quantum Measurement and Control (2010).
+
+- [Wiseman–Milburn bridge](learning/WISEMAN_MILBURN_BRIDGE.md): verified source sections, notation and damping conventions, a complete two-mode example, and the steps from open-system foundations to the path optimization.
+- [30-milestone map](learning/MILESTONES.md): M01–M12 establish the background contract; M13–M30 build the scientific narrative from local ingredients to the global result and its limits. Each milestone states its understanding target, dependencies, conceptual connection and scientific sources.
+- For the physical story, read the bridge, model and physical interpretation. For a theorem check, follow the scientific account directly. For numerical reproduction, use REPRODUCIBILITY.md and the canonical scripts rather than reconstructing formulas from the figures.
 
 ## Essential distinctions
 

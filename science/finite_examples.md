@@ -59,7 +59,7 @@ on $`u\in[0,1]`$. No multidimensional optimizer is used. At zero additional loss
 
 ## Exact evaluation of the selected design
 
-For $`S\sim\operatorname{Gamma}(m,\text{ rate }\Gamma)`$, the transfer amplitude is
+For $`S\sim\mathrm{Gamma}(m,\text{ rate }\Gamma)`$, the transfer amplitude is
 
 ```math
 G_\kappa(t)
