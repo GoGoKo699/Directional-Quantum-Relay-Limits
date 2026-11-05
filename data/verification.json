@@ -1,0 +1,355 @@
+{
+  "scope": "Deterministic finite formula/model checks; not an all-design numerical optimization or a substitute for proof.",
+  "conventions": {
+    "gamma": "Upper bound on engineered diagonal amplitude damping nu_j.",
+    "kappa": "Additional uniform amplitude damping; loss jumps are sqrt(2*kappa)*a_j.",
+    "occupation_rates": "Twice the corresponding amplitude damping rates.",
+    "endpoint_choice": "Unique positive cubic root maximizing the stated lower bound, capped at a/Gamma=1/2."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "constants": {
+    "zero_loss_probability_ceiling": 0.5413411329464508,
+    "weak_loss_critical_x": 0.039720770839917874,
+    "unconstrained_capacity_ceiling_qubits_per_use": 0.2391164820983649
+  },
+  "local_jump_realizations": [
+    {
+      "n": 3,
+      "a": 0.08,
+      "gamma": 1.0,
+      "drift_max_residual": 1.3877787807814457e-17,
+      "smallest_damping_eigenvalue": -2.0088794635284475e-18
+    },
+    {
+      "n": 9,
+      "a": 0.035,
+      "gamma": 1.7,
+      "drift_max_residual": 2.7755575615628914e-17,
+      "smallest_damping_eigenvalue": 7.679185421199962e-17
+    }
+  ],
+  "phase_and_detuning_examples": [
+    {
+      "n": 2,
+      "nu": [
+        0.3059944831648222,
+        0.4240863262598995
+      ],
+      "edge_magnitudes": [
+        0.720466727118376
+      ],
+      "edge_phases": [
+        -2.4256017618804107
+      ],
+      "omega": [
+        -0.000327030397872472,
+        -0.06002475280913252
+      ],
+      "time": 2.7394227792070445,
+      "gamma_diagonal_cap": 0.4240863262598995,
+      "damping_min_eigenvalue": -1.6653345369377348e-16,
+      "edge_product_over_bound": 1.0,
+      "probability": 0.5306134007523693,
+      "resonant_probability_same_rates": 0.5317913812873869,
+      "phase_gauge_residual": 1.5700924586837752e-16,
+      "uniform_loss_factor_residual": 1.1102230246251565e-16,
+      "lossy_probability": 0.4509644237171453,
+      "lossy_universal_upper": 0.47282831072272763
+    },
+    {
+      "n": 5,
+      "nu": [
+        0.41121313634153633,
+        2.494792364719182,
+        0.6640712710171469,
+        1.5356536316510183,
+        1.652265064912043
+      ],
+      "edge_magnitudes": [
+        1.5089574034497852,
+        0.7122003815945652,
+        0.4922163783784423,
+        0.7208162200182255
+      ],
+      "edge_phases": [
+        2.3150459934286713,
+        0.5361360645307873,
+        -0.11405831679518963,
+        2.7261016839047
+      ],
+      "omega": [
+        -0.6047668100425193,
+        -0.4320739063943859,
+        -0.14663006121946034,
+        -0.6322109000631172,
+        -0.3984191460989327
+      ],
+      "time": 3.5271232144917724,
+      "gamma_diagonal_cap": 2.494792364719182,
+      "damping_min_eigenvalue": 0.2779643693853526,
+      "edge_product_over_bound": 0.09091050666198927,
+      "probability": 0.0011693838776661346,
+      "resonant_probability_same_rates": 0.0012848603693735778,
+      "phase_gauge_residual": 1.4304896245381992e-17,
+      "uniform_loss_factor_residual": 5.204170427930421e-18,
+      "lossy_probability": 0.00034114604829517647,
+      "lossy_universal_upper": 0.3150654680503873
+    },
+    {
+      "n": 8,
+      "nu": [
+        2.634735685659173,
+        2.65602977400982,
+        0.5316844289614437,
+        0.5218124219212189,
+        1.5687991168863544,
+        0.568887225121826,
+        0.46651721754078346,
+        1.7211636879606427
+      ],
+      "edge_magnitudes": [
+        3.7722470309983196,
+        1.070405671206385,
+        0.38885379616108123,
+        0.7442721847209363,
+        0.47946177179970634,
+        0.4201462796675936,
+        1.6216240829229733
+      ],
+      "edge_phases": [
+        -0.4403464119174654,
+        -2.320125962309292,
+        2.620259581444473,
+        -2.2391274540915163,
+        0.3490624054032705,
+        -1.3937978962639994,
+        0.4964569298717554
+      ],
+      "omega": [
+        0.1964600610647408,
+        -0.09505748022923861,
+        -0.871938904806859,
+        0.6219718320200948,
+        -0.4393519625276935,
+        0.7670003336962836,
+        0.24450832534354308,
+        -0.03642313756859913
+      ],
+      "time": 9.171653091385364,
+      "gamma_diagonal_cap": 2.65602977400982,
+      "damping_min_eigenvalue": -5.834714578089903e-16,
+      "edge_product_over_bound": 0.2921455353731587,
+      "probability": 2.4508936279363938e-05,
+      "resonant_probability_same_rates": 0.0008169645856416685,
+      "phase_gauge_residual": 2.305045436800919e-18,
+      "uniform_loss_factor_residual": 1.178056882302193e-18,
+      "lossy_probability": 8.09460000956468e-07,
+      "lossy_universal_upper": 0.20994142462848545
+    }
+  ],
+  "gamma_convolution_examples": [
+    {
+      "n": 3,
+      "a": 0.04,
+      "time": 15.0,
+      "kappa": 0.0,
+      "expm_amplitude": 0.6383746727050584,
+      "analytic_amplitude": 0.6383746727050584,
+      "quadrature_amplitude": 0.6383746727050585,
+      "expm_residual": 0.0,
+      "quadrature_residual": 1.1102230246251565e-16,
+      "quadrature_reported_error": 7.08738259973947e-15
+    },
+    {
+      "n": 7,
+      "a": 0.08,
+      "time": 17.5,
+      "kappa": 0.03,
+      "expm_amplitude": 0.4272849935938749,
+      "analytic_amplitude": 0.4272849935938754,
+      "quadrature_amplitude": 0.4272849935938754,
+      "expm_residual": 4.996003610813204e-16,
+      "quadrature_residual": 0.0,
+      "quadrature_reported_error": 8.019231892286723e-15
+    },
+    {
+      "n": 15,
+      "a": 0.11,
+      "time": 22.0,
+      "kappa": 0.01,
+      "expm_amplitude": 0.5358407565703786,
+      "analytic_amplitude": 0.5358407565703781,
+      "quadrature_amplitude": 0.5358407565703786,
+      "expm_residual": 4.440892098500626e-16,
+      "quadrature_residual": 4.440892098500626e-16,
+      "quadrature_reported_error": 7.505800012171666e-15
+    }
+  ],
+  "internal_kernel_factorization": [
+    {
+      "nu": 0.25,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "time": 2.0,
+      "slow_kernel": 0.15163266492815836,
+      "fast_kernel": 0.1353352832366127,
+      "convolution_value": 0.15163266492815836,
+      "measure_mass": 1.0,
+      "residual": 0.0,
+      "quadrature_reported_error": 1.3078298901514929e-15,
+      "slow_kernel_exceeds_fast_at_this_time": true
+    },
+    {
+      "nu": 0.25,
+      "gamma": 1.0,
+      "kappa": 0.07,
+      "time": 2.0,
+      "slow_kernel": 0.13182310601076214,
+      "fast_kernel": 0.11765484302177918,
+      "convolution_value": 0.13182310601076214,
+      "measure_mass": 0.8359375,
+      "residual": 0.0,
+      "quadrature_reported_error": 1.1369726855039156e-15,
+      "slow_kernel_exceeds_fast_at_this_time": true
+    },
+    {
+      "nu": 0.8,
+      "gamma": 1.0,
+      "kappa": 0.07,
+      "time": 0.5,
+      "slow_kernel": 0.5178117336624276,
+      "fast_kernel": 0.5856692901447937,
+      "convolution_value": 0.5178117336624277,
+      "measure_mass": 0.9839080459770115,
+      "residual": 1.1102230246251565e-16,
+      "quadrature_reported_error": 5.470768454539936e-16,
+      "slow_kernel_exceeds_fast_at_this_time": false
+    },
+    {
+      "nu": 1.0,
+      "gamma": 1.0,
+      "kappa": 0.07,
+      "time": 0.5,
+      "slow_kernel": 0.5856692901447937,
+      "fast_kernel": 0.5856692901447937,
+      "convolution_value": 0.5856692901447937,
+      "measure_mass": 1.0,
+      "residual": 0.0,
+      "quadrature_reported_error": 0.0,
+      "slow_kernel_exceeds_fast_at_this_time": false
+    }
+  ],
+  "weak_loss_convergence": {
+    "x": 0.02,
+    "limiting_probability": 0.5201148435137037,
+    "rows": [
+      {
+        "n": 20,
+        "kappa_over_gamma": 0.001,
+        "x_n_kappa_over_gamma": 0.02,
+        "endpoint_rate_over_gamma": 0.030119590384279055,
+        "scaled_time_gamma_t": 51.20098272392014,
+        "jitter_m_a2_over_gamma2": 0.016329415048501595,
+        "family_probability": 0.48027210927967134,
+        "family_lower_bound": 0.4728221227464005,
+        "universal_upper_bound": 0.5211660095880001,
+        "homogeneous_probability": 0.031975866978887595,
+        "homogeneous_scaled_time_gamma_t": 18.981018981018984,
+        "sparse_expm_probability": 0.48027210927967046,
+        "sparse_expm_probability_residual": 8.881784197001252e-16,
+        "distance_from_limiting_frontier": 0.039842734234032395
+      },
+      {
+        "n": 100,
+        "kappa_over_gamma": 0.0002,
+        "x_n_kappa_over_gamma": 0.02,
+        "endpoint_rate_over_gamma": 0.010034346405671047,
+        "scaled_time_gamma_t": 197.65771158097914,
+        "jitter_m_a2_over_gamma2": 0.009867434563322338,
+        "family_probability": 0.49516229700643755,
+        "family_lower_bound": 0.490366796225849,
+        "universal_upper_bound": 0.5203249912740415,
+        "homogeneous_probability": 0.006170458751338912,
+        "homogeneous_scaled_time_gamma_t": 98.98020395920815,
+        "sparse_expm_probability": 0.4951622970064596,
+        "sparse_expm_probability_residual": 2.2037927038809357e-14,
+        "distance_from_limiting_frontier": 0.024952546507266193
+      },
+      {
+        "n": 500,
+        "kappa_over_gamma": 4e-05,
+        "x_n_kappa_over_gamma": 0.02,
+        "endpoint_rate_over_gamma": 0.003417870321770809,
+        "scaled_time_gamma_t": 790.57985407764,
+        "jitter_m_a2_over_gamma2": 0.0058175550931479645,
+        "family_probability": 0.5051850880684342,
+        "family_lower_bound": 0.5022681627493919,
+        "universal_upper_bound": 0.5201568696476015,
+        "homogeneous_probability": 0.0012254563129810835,
+        "homogeneous_scaled_time_gamma_t": 498.98004079836807,
+        "sparse_expm_probability": 0.5051850880683867,
+        "sparse_expm_probability_residual": 4.75175454539567e-14,
+        "distance_from_limiting_frontier": 0.014929755445269532
+      },
+      {
+        "n": 2000,
+        "kappa_over_gamma": 1e-05,
+        "x_n_kappa_over_gamma": 0.02,
+        "endpoint_rate_over_gamma": 0.0013559968907308573,
+        "scaled_time_gamma_t": 2735.4648178293523,
+        "jitter_m_a2_over_gamma2": 0.0036737776802081615,
+        "family_probability": 0.5106305564097321,
+        "family_lower_bound": 0.5087614581144426,
+        "universal_upper_bound": 0.5201253498869516,
+        "homogeneous_probability": 0.0003059624380820799,
+        "homogeneous_scaled_time_gamma_t": 1998.9800101998978,
+        "sparse_expm_probability": 0.5106305564092514,
+        "sparse_expm_probability_residual": 4.807265696626928e-13,
+        "distance_from_limiting_frontier": 0.009484287103971645
+      },
+      {
+        "n": 20000,
+        "kappa_over_gamma": 1e-06,
+        "x_n_kappa_over_gamma": 0.02,
+        "endpoint_rate_over_gamma": 0.0002922449494896407,
+        "scaled_time_gamma_t": 23419.7871061462,
+        "jitter_m_a2_over_gamma2": 0.0017079713958230486,
+        "family_probability": 0.5156862338245244,
+        "family_lower_bound": 0.5148065518415463,
+        "universal_upper_bound": 0.5201158941462217,
+        "homogeneous_probability": 3.058421382167964e-05,
+        "homogeneous_scaled_time_gamma_t": 19998.98000102,
+        "distance_from_limiting_frontier": 0.0044286096891793525
+      },
+      {
+        "n": 200000,
+        "kappa_over_gamma": 1e-07,
+        "x_n_kappa_over_gamma": 0.02,
+        "endpoint_rate_over_gamma": 6.297960022497326e-05,
+        "scaled_time_gamma_t": 215876.157314874,
+        "jitter_m_a2_over_gamma2": 0.0007932780760394014,
+        "family_probability": 0.518054492313008,
+        "family_lower_bound": 0.5176437285279674,
+        "universal_upper_bound": 0.5201149485769074,
+        "homogeneous_probability": 3.0583011283153303e-06,
+        "homogeneous_scaled_time_gamma_t": 199998.980000102,
+        "distance_from_limiting_frontier": 0.002060351200695698
+      }
+    ],
+    "scope": "One displayed convergence sequence, not a proof of the limit."
+  },
+  "exact_bypass": {
+    "time": 1.0,
+    "amplitude_real": -0.7357588823428846,
+    "amplitude_imag": -0.23419932609727656,
+    "probability": 0.5961904572908691,
+    "exact_probability": 0.5961904572908694,
+    "amplitude_residual": 1.5700924586837752e-16,
+    "scope": "One direct bypass is present; this is not a nearest-neighbor path."
+  },
+  "status": "passed"
+}

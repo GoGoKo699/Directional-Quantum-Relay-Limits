@@ -1,0 +1,33 @@
+{
+  "matplotlib_version": "3.10.8",
+  "endpoint_selection": "Positive cubic root maximizing the rigorous family lower bound; capped at a/Gamma=1/2.",
+  "time_selection": "The selected family uses Gamma*t=(n-2)+Gamma/a. The homogeneous curve uses its exact optimum Gamma*t=(n-1)/(1+kappa/Gamma).",
+  "no_finite_global_optimum": "Evaluated finite curves are constructions, not all-design optimized values.",
+  "gamma_convention": "Gamma caps engineered diagonal amplitude damping, not each edge amplitude or occupation damping.",
+  "constants": {
+    "probability_ceiling": 0.5413411329464508,
+    "critical_scaled_loss": 0.039720770839917874
+  },
+  "finite_loss": {
+    "kappa_over_gamma": 1e-05,
+    "min_n": 3,
+    "max_n": 20000,
+    "points": 140,
+    "table": "data/finite_loss_comparison.csv",
+    "figure": "figures/finite_loss_comparison.svg"
+  },
+  "weak_loss": {
+    "sizes": [
+      20,
+      200,
+      2000,
+      20000
+    ],
+    "min_x": 0.002,
+    "max_x": 0.08,
+    "points_per_size": 100,
+    "table": "data/weak_loss_crossover.csv",
+    "figure": "figures/weak_loss_crossover.svg",
+    "zero_loss_endpoint": "The finite cubic-rate curves start at x>0. At x=0 the bound's optimum requires a->0 and unbounded waiting time."
+  }
+}
