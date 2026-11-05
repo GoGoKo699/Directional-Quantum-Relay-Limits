@@ -100,6 +100,25 @@ Multiple forward paths can therefore exceed the chain ceiling. Ordinary common-w
 | Compare earlier results and models | [Related work and references](references/related_work.md) |
 | Reproduce the numerical checks and plots | [Reproducibility](REPRODUCIBILITY.md) |
 
+## Learn the project
+
+The single educational anchor is **Howard M. Wiseman and Gerard J. Milburn, *Quantum Measurement and Control* (2010)**. The [Wiseman–Milburn bridge](learning/WISEMAN_MILBURN_BRIDGE.md) connects its treatment of Markov dynamics, Lindblad positivity, Heisenberg evolution and linear quantum systems to this project's passive path. It translates the rate conventions, develops a two-mode example and explains the additional proof ingredients supplied here.
+
+The [30-milestone map](learning/MILESTONES.md) has **12 background/preliminaries milestones** and **18 narrative/innovation milestones**. The first phase builds the physical and mathematical contract; the second connects local passivity and the convolution mechanism to the complete transfer law, design costs, loss frontier and architectural boundary. The map is a common understanding route, with dependencies and pointers to the authoritative scientific pages.
+
+Use the bridge alongside the map; the book supports the route without requiring a cover-to-cover reading. The [LLM reading guide](llms.txt) provides direct study, theorem and reproduction routes.
+
+## Reproduce the finite checks
+
+Install the [pinned requirements](verification/requirements.txt), then run from the repository root:
+
+```bash
+python3 scripts/verify_science.py
+python3 scripts/make_figures.py
+```
+
+The first command checks the physical generator and consequential finite formulas; the second regenerates both figures and their numerical tables. [Reproducibility](REPRODUCIBILITY.md) states the expected outputs and numerical limits. Finite checks illustrate and verify implementations of the analytical account; the written arguments establish the general bounds.
+
 ## Purpose and contact
 
 This repository serves as a record of the work and a guide for the author’s self-directed learning. For discussion or potential collaboration, please contact Ruge Lin at [gogoko699@gmail.com](mailto:gogoko699@gmail.com).

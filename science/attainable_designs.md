@@ -77,7 +77,7 @@ Let $`n\ge3`$ and put $`m=n-2`$. Choose
 \qquad
 \nu_j=\Gamma\quad(2\le j\le n-1),
 \qquad
-0<a\le\frac{\Gamma}{2}.
+0\lt a\le\frac{\Gamma}{2}.
 ```
 
 The resulting drift couplings are
@@ -115,7 +115,7 @@ Equivalently,
 ```math
 G(t)=\mathbb E[F_{a,a}(t-S)],
 \qquad
-S\sim\operatorname{Gamma}(m,\text{ rate }\Gamma).
+S\sim\mathrm{Gamma}(m,\text{ rate }\Gamma).
 ```
 
 In particular,
@@ -123,7 +123,7 @@ In particular,
 ```math
 \mathbb E S=\frac m\Gamma,
 \qquad
-\operatorname{Var}S=\frac m{\Gamma^2}.
+\mathrm{Var}S=\frac m{\Gamma^2}.
 ```
 
 The relays therefore create a positive random delay. To preserve the peak of the endpoint response, its width $`1/a`$ must exceed the standard deviation $`\sqrt m/\Gamma`$. The mean delay $`m/\Gamma`$ determines the leading propagation time.
@@ -179,7 +179,7 @@ To obtain relative amplitude deficit at most $`\delta`$, choose
 ```math
 a=\Gamma\sqrt{\frac{\delta}{m}},
 \qquad
-0<\delta<1,
+0\lt \delta\lt 1,
 \qquad
 \delta\le\frac m4.
 ```
@@ -201,7 +201,7 @@ One may also approach the ceiling while taking the chain length to infinity. Cho
 ```math
 a_n=\Gamma n^{-\alpha},
 \qquad
-\frac12<\alpha<1.
+\frac12\lt \alpha\lt 1.
 ```
 
 Then
@@ -214,7 +214,7 @@ t_n=\frac{n-2+n^\alpha}{\Gamma},
 \frac{\Gamma t_n}{n}\longrightarrow1.
 ```
 
-The condition $`\alpha>1/2`$ makes the endpoint response broad compared with the delay fluctuations. The condition $`\alpha<1`$ makes the additional endpoint waiting time subleading to propagation. These same two conditions permit the [weak-loss frontier](loss_frontier.md) to be attained when unavoidable loss acts on the slow endpoints as well as on every relay.
+The condition $`\alpha>1/2`$ makes the endpoint response broad compared with the delay fluctuations. The condition $`\alpha\lt 1`$ makes the additional endpoint waiting time subleading to propagation. These same two conditions permit the [weak-loss frontier](loss_frontier.md) to be attained when unavoidable loss acts on the slow endpoints as well as on every relay.
 
 For $`n=2`$, no limiting construction is needed. Taking $`\nu_1=\nu_2=a`$ gives $`G(t)=2at e^{-at}`$, with exact peak $`2/e`$ at $`t=1/a`$.
 

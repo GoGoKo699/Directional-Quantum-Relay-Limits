@@ -54,7 +54,7 @@ It therefore suffices to prove the result when all $`\nu_j`$ and $`|w_j|`$ are p
 
 ## 2. The sharp path-product inequality
 
-A diagonal change of mode phases makes all adjacent drift couplings positive without changing the diagonal rates or transfer magnitude. Let $`D=\operatorname{diag}(\nu_1,\ldots,\nu_n)`$. After this phase change,
+A diagonal change of mode phases makes all adjacent drift couplings positive without changing the diagonal rates or transfer magnitude. Let $`D=\mathrm{diag}(\nu_1,\ldots,\nu_n)`$. After this phase change,
 
 ```math
 D^{-1/2}RD^{-1/2}=I-B\succeq0,
@@ -73,7 +73,7 @@ Let $`\rho`$ be the Perron eigenvalue of $`B`$ and let $`u>0`$ be its Perron vec
 Define
 
 ```math
-p_j=b_j\frac{u_{j+1}}{u_j}\quad(1\le j<n),
+p_j=b_j\frac{u_{j+1}}{u_j}\quad(1\le j\lt n),
 \qquad
 q_j=b_{j-1}\frac{u_{j-1}}{u_j}\quad(2\le j\le n),
 ```
@@ -140,7 +140,7 @@ But $`T^{n-1}`$ has just one possibly nonzero entry, equal to $`2^{n-1}\prod_j b
 
 ## 3. The propagator is a single convolution
 
-For $`\operatorname{Re}z>0`$, define the causal function
+For $`\mathrm{Re}z>0`$, define the causal function
 
 ```math
 f_z(t)=e^{-zt}\mathbf1_{\{t\ge0\}}.
@@ -246,7 +246,7 @@ For $`n\ge3`$ with all path rates positive, the convolution of the internal expo
 =
 \mathbb E[F_{a,b}(t-S)]
 \le\frac2e\,\Pr(S\le t)
-<\frac2e.
+\lt \frac2e.
 ```
 
 Thus a finite-rate path with at least one relay never reaches the ceiling exactly at a finite time. Its supremum is nevertheless the same two-mode value. The [explicit construction](attainable_designs.md) makes the endpoint response broad compared with the internal delay fluctuations while keeping all local coefficients bounded.

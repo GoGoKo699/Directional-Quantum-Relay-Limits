@@ -5,7 +5,7 @@ Let the engineered drift $`A_0`$ satisfy the [passive scalar path model](model.m
 ```math
 A_0+A_0^\dagger\preceq0,
 \qquad
-0\le\nu_j=-\operatorname{Re}(A_0)_{jj}\le\Gamma.
+0\le\nu_j=-\mathrm{Re}(A_0)_{jj}\le\Gamma.
 ```
 
 Add independent vacuum loss on every mode:
@@ -106,7 +106,7 @@ It remains to optimize a positive convolution. Write the endpoint rates as $`a=\
 h_\nu(t)=\nu e^{-(\nu+\kappa)t}\mathbf1_{\{t\ge0\}}.
 ```
 
-For fixed endpoints, every internal site contributes one factor $`h_\nu`$. Its Laplace transform is $`H_\nu(s)=\nu/(s+\nu+\kappa)`$. For $`0<\nu\le\Gamma`$,
+For fixed endpoints, every internal site contributes one factor $`h_\nu`$. Its Laplace transform is $`H_\nu(s)=\nu/(s+\nu+\kappa)`$. For $`0\lt \nu\le\Gamma`$,
 
 ```math
 \frac{H_\nu(s)}{H_\Gamma(s)}
@@ -157,7 +157,7 @@ Repeating this replacement for all internal sites proves the reduction. In terms
 \eta_n^*(\delta)
 =
 \left[
-\sup_{\substack{0<a,b\le\Gamma\\t\ge0}}
+\sup_{\substack{0\lt a,b\le\Gamma\\t\ge0}}
 2\sqrt{ab}\,\Gamma^{n-2}
 \left(
 f_{a+\kappa}*
@@ -251,7 +251,7 @@ Now let $`\delta_n=\kappa_n/\Gamma`$ vary with chain length, and assume
 ```math
 n\delta_n\longrightarrow x,
 \qquad
-0\le x<\infty.
+0\le x\lt \infty.
 ```
 
 Then
@@ -276,7 +276,7 @@ For attainability, take the slow-endpoint family
 ```math
 a_n=\Gamma n^{-\alpha},
 \qquad
-\frac12<\alpha<1,
+\frac12\lt \alpha\lt 1,
 \qquad
 t_n=\frac{n-2}{\Gamma}+\frac1{a_n}.
 ```
@@ -314,7 +314,7 @@ The construction charges loss during the entire evolution, including the slow en
 
 ## 5. A usable finite-size lower bound
 
-For $`m=n-2\ge1`$, choose any $`0<a\le\Gamma/2`$ satisfying $`ma^2/\Gamma^2\le1`$. The same physical family gives
+For $`m=n-2\ge1`$, choose any $`0\lt a\le\Gamma/2`$ satisfying $`ma^2/\Gamma^2\le1`$. The same physical family gives
 
 ```math
 \boxed{

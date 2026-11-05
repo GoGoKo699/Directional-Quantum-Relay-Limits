@@ -16,7 +16,7 @@ For $`n\ge3`$, put $`m=n-2`$. Use the [local slow-endpoint construction](attaina
 ```math
 w_1=w_{n-1}=\sqrt{2a\Gamma},\qquad
 w_j=\Gamma\quad(2\le j\le n-2),\qquad
-0<a\le\Gamma/2.
+0\lt a\le\Gamma/2.
 ```
 
 The extra restriction $`a\le\Gamma/2`$ keeps every drift hopping at most $`\Gamma`$. It is sufficient for the figures, but it is not part of the general diagonal-rate budget. Read out at the declared time
@@ -59,7 +59,7 @@ on $`u\in[0,1]`$. No multidimensional optimizer is used. At zero additional loss
 
 ## Exact evaluation of the selected design
 
-For $`S\sim\operatorname{Gamma}(m,\text{ rate }\Gamma)`$, the transfer amplitude is
+For $`S\sim\mathrm{Gamma}(m,\text{ rate }\Gamma)`$, the transfer amplitude is
 
 ```math
 G_\kappa(t)
