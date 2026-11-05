@@ -73,7 +73,7 @@ Let $`\rho`$ be the Perron eigenvalue of $`B`$ and let $`u>0`$ be its Perron vec
 Define
 
 ```math
-p_j=b_j\frac{u_{j+1}}{u_j}\quad(1\le j<n),
+p_j=b_j\frac{u_{j+1}}{u_j}\quad(1\le j\lt n),
 \qquad
 q_j=b_{j-1}\frac{u_{j-1}}{u_j}\quad(2\le j\le n),
 ```
@@ -246,7 +246,7 @@ For $`n\ge3`$ with all path rates positive, the convolution of the internal expo
 =
 \mathbb E[F_{a,b}(t-S)]
 \le\frac2e\,\Pr(S\le t)
-<\frac2e.
+\lt \frac2e.
 ```
 
 Thus a finite-rate path with at least one relay never reaches the ceiling exactly at a finite time. Its supremum is nevertheless the same two-mode value. The [explicit construction](attainable_designs.md) makes the endpoint response broad compared with the internal delay fluctuations while keeping all local coefficients bounded.

@@ -64,7 +64,7 @@ Q(\eta)=
 \begin{cases}
 0,&0\le\eta\le\frac12,\\
 \displaystyle\log_2\frac{\eta}{1-\eta},
-&\frac12<\eta<1.
+&\frac12\lt \eta\lt 1.
 \end{cases}
 ```
 
@@ -72,7 +72,7 @@ The units are qubits per channel use. The formula allows arbitrary bosonic encod
 
 The [operational contract](model.md) requires each use to start with vacuum relay modes and vacuum bath inputs. The network generator remains fixed during that use. The capacity includes terminal coding and decoding, but no intervention at intermediate relays, environmental monitoring, postselection, or classical feedback assistance.
 
-Since the transmissivity of every allowed path is at most $`4/e^2<1`$,
+Since the transmissivity of every allowed path is at most $`4/e^2\lt 1`$,
 
 ```math
 Q\le
@@ -91,7 +91,7 @@ This numerical ceiling assumes no bound on input photon number. It is not a thro
 
 A fixed positive input photon-number budget changes achievable rates, but does not change the zero-versus-positive threshold at $`\eta=1/2`$.
 
-For $`\eta\le1/2`$, the pure-loss channel is antidegradable and its unassisted quantum capacity vanishes under any input constraint. For $`\eta>1/2`$, choose a thermal input with mean photon number $`0<N\le\overline N`$, where $`\overline N>0`$ is the budget. Its coherent information is
+For $`\eta\le1/2`$, the pure-loss channel is antidegradable and its unassisted quantum capacity vanishes under any input constraint. For $`\eta>1/2`$, choose a thermal input with mean photon number $`0\lt N\le\overline N`$, where $`\overline N>0`$ is the budget. Its coherent information is
 
 ```math
 I_{\mathrm c}(N,\eta)
@@ -176,7 +176,7 @@ Positive capacity requires
 or equivalently
 
 ```math
-n-1<\frac{x_{\mathrm c}}{\log(1+\delta)}.
+n-1\lt \frac{x_{\mathrm c}}{\log(1+\delta)}.
 ```
 
 It follows that
@@ -186,7 +186,7 @@ It follows that
 \delta\,n_{\max}(\delta)\le x_{\mathrm c}.
 ```
 
-Conversely, fix any $`0<x<x_{\mathrm c}`$ and take $`n(\delta)=\lfloor x/\delta\rfloor`$. As $`\delta\downarrow0`$, these lengths tend to infinity and $`n(\delta)\delta\to x`$. The attainable weak-loss frontier gives
+Conversely, fix any $`0\lt x\lt x_{\mathrm c}`$ and take $`n(\delta)=\lfloor x/\delta\rfloor`$. As $`\delta\downarrow0`$, these lengths tend to infinity and $`n(\delta)\delta\to x`$. The attainable weak-loss frontier gives
 
 ```math
 \eta_{n(\delta)}^*(\delta)

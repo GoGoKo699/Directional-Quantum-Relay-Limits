@@ -56,7 +56,7 @@ t=\frac{m+\sqrt{m/\varepsilon}}{\Gamma},
 
 subject to the construction's boundary-rate condition. At fixed $`\varepsilon`$, the leading time is proportional to chain length. At fixed length, approaching the exact zero-extra-loss supremum sends the endpoint rate to zero and the readout time to infinity.
 
-Unavoidable loss penalizes this waiting. In the weak-loss regime $`n\kappa_n/\Gamma\to x`$, an endpoint choice $`a_n=\Gamma n^{-\alpha}`$ with $`1/2<\alpha<1`$ resolves the transit spread while adding only a subleading delay. The propagation time then accumulates a limiting amplitude attenuation $`e^{-x}`$, and the probability acquires $`e^{-2x}`$. The [loss proof](loss_frontier.md) establishes both this construction and the converse over every allowed design.
+Unavoidable loss penalizes this waiting. In the weak-loss regime $`n\kappa_n/\Gamma\to x`$, an endpoint choice $`a_n=\Gamma n^{-\alpha}`$ with $`1/2\lt \alpha\lt 1`$ resolves the transit spread while adding only a subleading delay. The propagation time then accumulates a limiting amplitude attenuation $`e^{-x}`$, and the probability acquires $`e^{-2x}`$. The [loss proof](loss_frontier.md) establishes both this construction and the converse over every allowed design.
 
 ## What the resource conventions measure
 

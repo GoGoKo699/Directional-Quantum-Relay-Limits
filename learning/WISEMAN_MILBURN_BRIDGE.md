@@ -37,7 +37,7 @@ The following map connects the source's subject matter to notation fixed for thi
 | Drift | $`A=-ih-K^\dagger K/2`$ determines the evolution of first moments. It is not the full density-operator generator. |
 | Local damping | $`\nu_j=-\mathrm{Re}\,(A_0)_{jj}`$ is the engineered amplitude decay rate. Before additional loss, $`A_0=A`$; with it, $`A=A_0-\kappa I`$. |
 | Budget and additional loss | $`\Gamma`$ caps engineered diagonal amplitude damping; $`\kappa`$ is an independent additional amplitude decay rate. |
-| Transfer | $`G(t)=[e^{At}]_{n1}`$ is the input-to-output amplitude coefficient; $`\eta(t)=|G(t)|^2`$ is the transmissivity. |
+| Transfer | $`G(t)=[e^{At}]_{n1}`$ is the input-to-output amplitude coefficient; $`\eta(t)=\lvert G(t)\rvert^2`$ is the transmissivity. |
 
 We set $`\hbar=1`$ and use
 
@@ -258,7 +258,7 @@ t_*=\frac1{\nu+\kappa},
 \left(\frac{\nu}{\nu+\kappa}\right)^2.
 ```
 
-Under the engineered damping cap $`0<\nu\le\Gamma`$, the best matched pair uses $`\nu=\Gamma`$. This realizes the exact two-mode optimum proved in [loss frontier](../science/loss_frontier.md#1-universal-finite-size-bound). The longer-path problem needs a converse over unequal rates and every admissible coupling, not just this symmetric example.
+Under the engineered damping cap $`0\lt \nu\le\Gamma`$, the best matched pair uses $`\nu=\Gamma`$. This realizes the exact two-mode optimum proved in [loss frontier](../science/loss_frontier.md#1-universal-finite-size-bound). The longer-path problem needs a converse over unequal rates and every admissible coupling, not just this symmetric example.
 
 ## From two modes to the full path
 
@@ -324,7 +324,7 @@ The [explicit construction](../science/attainable_designs.md) supplies both the 
 ```math
 a_n=\Gamma n^{-\alpha},
 \qquad
-\frac12<\alpha<1,
+\frac12\lt \alpha\lt 1,
 \qquad
 t_n=\frac{n-2+n^\alpha}{\Gamma}.
 ```
@@ -345,7 +345,7 @@ This is an exact upper bound, not generally the exact finite-size optimum. At fi
 
 There is also an exact finite-size reduction. An internal factor $`\nu e^{-(\nu+\kappa)t}`$ can be written as the corresponding factor at rate $`\Gamma`$ convolved with a positive measure of mass at most one. Replacing each internal rate by $`\Gamma`$, and readjusting the product-saturating physical couplings, therefore cannot lower the best peak over time. The remaining exact optimization is over the two endpoint rates and readout time. Equal optimal endpoints are not assumed or proved by that reduction.
 
-When $`n\delta_n\to x`$ with $`0\le x<\infty`$, the slow-endpoint family above matches the converse:
+When $`n\delta_n\to x`$ with $`0\le x\lt \infty`$, the slow-endpoint family above matches the converse:
 
 ```math
 \lim_{n\to\infty}\eta_n^*(\delta_n)

@@ -67,7 +67,7 @@ w_1 & -\nu_2-i\omega_2 & \ddots & \vdots\\
 \end{pmatrix}.
 ```
 
-Here $`\nu_j\ge0`$, $`\omega_j\in\mathbb R`$, and $`w_j\in\mathbb C`$. More explicitly, the only allowed off-diagonal entries are $`A_{j+1,j}=w_j`$ for $`1\le j<n`$. The equation for mode $`j+1`$ can depend on mode $`j`$, while the reverse dependence vanishes. There is exactly one directed route from site $`1`$ to site $`n`$.
+Here $`\nu_j\ge0`$, $`\omega_j\in\mathbb R`$, and $`w_j\in\mathbb C`$. More explicitly, the only allowed off-diagonal entries are $`A_{j+1,j}=w_j`$ for $`1\le j\lt n`$. The equation for mode $`j+1`$ can depend on mode $`j`$, while the reverse dependence vanishes. There is exactly one directed route from site $`1`$ to site $`n`$.
 
 The condition applies to the complete drift, including the coherent and dissipative contributions. It does not require either contribution to be directional separately. It is also stronger than one-way transmission at a selected scattering frequency.
 

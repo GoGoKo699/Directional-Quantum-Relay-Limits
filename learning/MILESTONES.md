@@ -309,7 +309,7 @@ The second phase builds the global result from its local response and coupling c
 
 **Central question.** How can the full limiting transfer probability be matched when accumulated loss stays finite?
 
-**Understanding target.** For $`n\kappa_n/\Gamma\to x`$, connect the finite upper bound to the slow-endpoint choice $`a_n=\Gamma n^{-\alpha}`$, $`1/2<\alpha<1`$. Explain why relay-delay fluctuations vanish relative to the endpoint response, endpoint waiting loss becomes subleading, and the optimized probability tends to $`(4/e^2)e^{-2x}`$.
+**Understanding target.** For $`n\kappa_n/\Gamma\to x`$, connect the finite upper bound to the slow-endpoint choice $`a_n=\Gamma n^{-\alpha}`$, $`1/2\lt \alpha\lt 1`$. Explain why relay-delay fluctuations vanish relative to the endpoint response, endpoint waiting loss becomes subleading, and the optimized probability tends to $`(4/e^2)e^{-2x}`$.
 
 **Earlier dependencies and story role.** [M19](#m19-relay-delay-fluctuations-and-endpoint-response-width), [M20](#m20-sharpness-with-bounded-coefficients-and-an-explicit-time-cost), [M21](#m21-the-finite-bound-with-unavoidable-loss), [M23](#m23-the-exact-attenuation-exponent-at-fixed-positive-loss). Matches the full asymptotic value, not only its exponential rate.
 
